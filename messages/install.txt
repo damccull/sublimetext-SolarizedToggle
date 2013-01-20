@@ -1,0 +1,5 @@
+Thanks for installing Solarized Light-Dark Toggle.
+
+This simple plugin allows you to easily and quickly toggle between the two Solarized color schemes at the simple press of a key.
+
+By default the key is mapped to F12, so by pressing F12, you should now see your color scheme change to Solarized Light or Dark, depending on what was already displayed.
