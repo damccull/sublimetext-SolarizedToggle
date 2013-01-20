@@ -1,7 +1,7 @@
 #Solarized Light-Dark Toggle
 
 ##Introduction
-Solarized Light-Dark Toggle is a very simple plugin which allows users of [Sublime Text 2]{http://www.sublimetext.com/} to easily switch between light and dark versions of the Solarized color scheme.
+Solarized Light-Dark Toggle is a very simple plugin which allows users of [Sublime Text 2](http://www.sublimetext.com/) to easily switch between light and dark versions of the Solarized color scheme.
 
 Instead of having to manually click Preferences->Color Scheme->Solarized (\[Light|Dark\]), you can simply press F12 in order to toggle between the light and dark themes.
 
