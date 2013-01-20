@@ -1,0 +1,3 @@
+Version 1.1
+
+* Fixes an issue where pressing F12 would switch only the current tab's theme. Now F12 switches the theme for the entire application.
