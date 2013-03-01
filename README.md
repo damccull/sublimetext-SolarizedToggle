@@ -5,6 +5,10 @@ Solarized Light-Dark Toggle is a very simple plugin which allows users of [Subli
 
 Instead of having to manually click Preferences->Color Scheme->Solarized (\[Light|Dark\]), you can simply press F12 in order to toggle between the light and dark themes.
 
+Contribute to this code:
+* Fork the project, write a patch, submit a pull request.
+* Reporting issues or request features in the Issues tab.
+
 ##Installation
 This plugin can be installed by using the [Package Control][packagecontrol] plugin \(preferred\), or manually.
 
