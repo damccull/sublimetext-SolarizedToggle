@@ -3,8 +3,11 @@
 		"keys": ["f12"], "command": "solarized_toggle",
 		"args":
 		{
-			"color_sceme_day": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
-			"color_sceme_night": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme"
+			"color_scheme_light": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+			"color_scheme_dark": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+            "flip_theme": false,
+            "theme_light": "Soda Light.sublime-theme",
+            "theme_dark": "Soda Dark.sublime-theme"
 		}
 	}
 ]
