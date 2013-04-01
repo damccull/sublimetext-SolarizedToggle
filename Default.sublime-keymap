@@ -1,5 +1,5 @@
 [
 	{
-		"keys": ["f12"], "command": "solarized_toggle",
+		"keys": ["f12"], "command": "solarized_toggle"
 	}
 ]
