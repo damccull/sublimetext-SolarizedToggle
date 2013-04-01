@@ -1,10 +1,5 @@
 [
 	{
-		"keys": ["f12"], "command": "solarized_toggle",
-		"args":
-		{
-			"color_sceme_day": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
-			"color_sceme_night": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme"
-		}
+		"keys": ["f12"], "command": "solarized_toggle"
 	}
 ]
