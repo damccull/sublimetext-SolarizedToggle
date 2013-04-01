@@ -26,4 +26,4 @@ This plugin can be installed by using the [Package Control][packagecontrol] plug
 Congratulations. The plugin is now installed. Test it by pressing F12 a few times.
 
 [packagecontrol]: http://wbond.net/sublime_packages/package_control "Package Control"
-[currentVersion]: https://nodeload.github.com/damccull/sublimetext2-SolarizedToggle/zip/currentVersion "Current Version"
+[currentVersion]: https://nodeload.github.com/damccull/sublimetext2-SolarizedToggle/zip/v1.2 "Current Version"
