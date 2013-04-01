@@ -15,13 +15,11 @@ class SolarizedToggle(sublime_plugin.ApplicationCommand):
         new_scheme = "light" if "dark" in current_scheme.lower() else "dark"
 
         if scheme_type == "color":
-            print("color_scheme")
             if new_scheme == "light":
                 settings.set("color_scheme", color_scheme_light)
             else:
                 settings.set("color_scheme", color_scheme_dark)
         else:
-            print("default")
             if new_scheme == "light":
                 settings.set("color_scheme", default_light)
             else:
