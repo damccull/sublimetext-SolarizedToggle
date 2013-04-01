@@ -5,7 +5,7 @@ import os.path
 
 class SolarizedToggle(sublime_plugin.ApplicationCommand):
 
-	def set_color_scheme(self, scheme_type, settings):
+    def set_color_scheme(self, scheme_type, settings):
         default_light = "Packages/Color Scheme - Default/Solarized (Light).tmTheme"
         default_dark = "Packages/Color Scheme - Default/Solarized (Dark).tmTheme"
         color_scheme_light = "Packages/Solarized Color Scheme/Solarized (light).tmTheme"
@@ -27,8 +27,8 @@ class SolarizedToggle(sublime_plugin.ApplicationCommand):
             else:
                 settings.set("color_scheme", default_dark)
 
-	def run(self, **args):
-		settingsFile = "Preferences.sublime-settings"
+    def run(self, **args):
+        settingsFile = "Preferences.sublime-settings"
         settings = sublime.load_settings(settingsFile)
 
         sublime2_path = sublime.packages_path() + "/Solarized Color Scheme"
