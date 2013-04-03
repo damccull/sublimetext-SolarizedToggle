@@ -32,6 +32,6 @@ Congratulations. The plugin is now installed. Test it by pressing F12 a few time
 [st2]: http://www.sublimetext.com/ "Sublime Text 2"
 [st3]: http://www.sublimetext.com/3 "Sublime Text 3"
 [packagecontrol]: http://wbond.net/sublime_packages/package_control "Package Control"
-[currentVersion]: https://nodeload.github.com/damccull/sublimetext2-SolarizedToggle/zip/v1.2 "Current Version"
+[currentVersion]: https://nodeload.github.com/damccull/sublimetext2-SolarizedToggle/zip/v1.2.1 "Current Version"
 [solarizedtheme-plugin]: https://github.com/sublimecolors/solarized "Solarized Theme Plugin"
 [taoquay-page]: https://github.com/taoquay "taoquay"

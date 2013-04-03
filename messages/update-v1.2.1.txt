@@ -1,0 +1,6 @@
+Version 1.2.1
+
+* Incremental update to fix a few package control problems.
+
+* Updated by taoquay@github to allow for the use of either the built-in Solarized theme, or the plugin from Package Control.
+* Updated by taoquay@github to allow plugin to work in both ST2 and ST3.
