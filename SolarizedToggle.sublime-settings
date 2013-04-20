@@ -1,9 +1,8 @@
 {
-    "default_flipped_state": "dark",
+    "current_state": "dark",
     "color_scheme_light": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
     "color_scheme_dark": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
     "flip_theme": false,
     "theme_light": "Soda Light.sublime-theme",
     "theme_dark": "Soda Dark.sublime-theme",
-    "override_views": true
 }
