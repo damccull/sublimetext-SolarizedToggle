@@ -21,10 +21,12 @@ This plugin can be installed by using the [Package Control][packagecontrol] plug
 
 ###Manual Installation
 1. Download the [current version][currentVersion] of the plugin.
+
 ####Sublime Text 2
 1. In Sublime Text 2, click Preferences->Browse Packages.
 2. Unzip the file you downloaded into that directory.
 3. Rename the folder you just unzipped to 'Solarized Toggle'.
+
 ####Sublime Text 3
 1. In Sublime Text 3, click Preferences->Browse Packages.
 2. Go up one level, then open the Installed Packages folder.
