@@ -17,7 +17,7 @@ This plugin can be installed by using the [Package Control][packagecontrol] plug
 ###Package Control
 1. Install the [Package Control][packagecontrol] plugin if you haven't already.
 2. Simply press CTRL-SHIFT-P from inside Sublime Text, then type PCI, and press enter. This will open the package installation browser.
-3. Type 'Solarized Light-Dark Toggle' then press enter.
+3. Type 'Solarized Toggle' then press enter.
 
 ###Manual Installation
 1. Download the [current version][currentVersion] of the plugin.
