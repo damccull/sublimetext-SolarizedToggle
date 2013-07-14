@@ -1,20 +1,6 @@
 {
-    // Set color schemes to use
+    // Set color schemes to use. By default the plugin uses Solarized light and dark themes.
+    //You can set these to any theme you have installed, whether it's a built-in them or not.
     "color_scheme_light": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
     "color_scheme_dark": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
-
-    // Whether to also flip the theme
-    // If this is set to true, ensure that valid themes are set for "theme_light" and "theme_dark"
-    // The default settings for "theme_light" and "theme_dark" require the Soda theme to be installed
-    "flip_theme": false,
-    "theme_light": "Soda Light.sublime-theme",
-    "theme_dark": "Soda Dark.sublime-theme",
-
-    // By default, settings in the global Preferences.sublime-settings file are updated on every toggle
-    // If you prefer the plugin leave your global preferences alone, set this to false
-    // If it is false, you may see a mismatch between the desired theme and color scheme settings on launch, for a few seconds before the plugin is loaded and can restore the desired settings
-    "update_global_settings": true,
-
-    // Used to set the state initially. After the plugin's first initialization, further state changes are stored in user settings, overriding the state here
-    "current_state": "dark"
 }

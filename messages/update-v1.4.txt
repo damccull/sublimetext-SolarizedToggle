@@ -1,0 +1,5 @@
+Version 1.4
+
+* Renamed package to more simple "Solarized Toggle".
+* Color schemes are now set via a settings file under Preferences->Packages
+* Fixed crazy bugs that broke the theme of sublimetext when used. If you still experience this bug after updating, please open your Preferences menu, choose Settings - User, and delete the 'theme' setting. Save and your sublime should look normal again.
