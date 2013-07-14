@@ -1,0 +1,8 @@
+Version 1.3
+
+* Plugin rewritten by sjpfenninger@github.
+* Works in SublimeText2 and SublimeText3.
+* Ability to change window theme as well as color scheme. Defaults to Soda light and dark.
+* Saves settings in a plugin-specific settins file.
+* Allows for user configurable color schemes in settings file.
+* Option to update global settings file. Enabled by default.
