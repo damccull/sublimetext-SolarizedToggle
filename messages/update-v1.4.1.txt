@@ -1,0 +1,3 @@
+Version 1.4.1
+
+* Fixed a bug where the Default settings file was pointing to the wrong place.

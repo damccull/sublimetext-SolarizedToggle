@@ -17,7 +17,7 @@
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/SolarizedToggle/SolarizedToggle.sublime-settings"},
+                                "args": {"file": "${packages}/Solarized Toggle/SolarizedToggle.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
