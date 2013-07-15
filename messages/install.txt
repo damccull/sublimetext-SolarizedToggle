@@ -1,7 +1,7 @@
-Thanks for installing Solarized Light-Dark Toggle.
+Thanks for installing Solarized Toggle.
 
-This simple plugin allows you to easily and quickly toggle between the two Solarized color schemes at the simple press of a key.
+This simple plugin allows you to easily and quickly toggle between the two color schemes at the simple press of a key. The default schemes are Solarized light and dark.
 
 By default the key is mapped to F12, so by pressing F12, you should now see your color scheme change to Solarized Light or Dark, depending on what was already displayed.
 
-Note: If using Sublime Text 2 or 3, this plugin DOES NOT require the Solarized Color Scheme plugin from the Package Control repositories. It will use the plugin if you have it installed, and fall back on the built-in themes if not.
+Note: This plugin DOES NOT require the Solarized Color Scheme plugin from the Package Control repositories. It defaults the the theme built into Sublime Text 2 and 3.
