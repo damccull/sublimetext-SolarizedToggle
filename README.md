@@ -12,9 +12,9 @@ Contribute to this code:
 * Reporting issues or request features in the Issues tab.
 
 ##Installation
-This plugin can be installed by using the [Package Control][packagecontrol] plugin \(preferred\), or manually.
+This plugin can be installed by using the [Package Control][packagecontrol] plugin, or manually.
 
-###Package Control
+###Package Control \(preferred\)
 1. Install the [Package Control][packagecontrol] plugin if you haven't already.
 2. Simply press CTRL-SHIFT-P from inside Sublime Text, then type PCI, and press enter. This will open the package installation browser.
 3. Type 'Solarized Toggle' then press enter.
