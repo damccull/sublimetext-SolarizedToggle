@@ -1,0 +1,6 @@
+Version 1.4.2
+
+Changes:
+* Fixed support for Sublime Text 2. Was using an API method from Sublime Text 3 that didn't exist in version 2.
+* Removed an extra comma from the sublime-settings file.
+* Theme changing support disabled due to a bug causing problems with UI rendering.
