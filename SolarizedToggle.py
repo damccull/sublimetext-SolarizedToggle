@@ -1,7 +1,5 @@
 import sublime
 import sublime_plugin
-import os.path
-
 
 class SolarizedToggle(object):
     def do_setup(self):
@@ -9,6 +7,7 @@ class SolarizedToggle(object):
         self.global_settings = sublime.load_settings(self.global_settings_file)
         self.plugin_settings_file = 'SolarizedToggle.sublime-settings'
         self.plugin_settings = sublime.load_settings(self.plugin_settings_file)
+        _setupComplete = True
 
     def set_color_scheme(self):
         current_scheme = self.global_settings.get("color_scheme")
@@ -20,10 +19,10 @@ class SolarizedToggle(object):
         sublime.save_settings(self.global_settings_file)
 
 _toggler = SolarizedToggle()
+_setupComplete = False
 
 class SolarizedToggleCommand(sublime_plugin.ApplicationCommand):
     def run(self, **args):
+        if _setupComplete is not True:
+            _toggler.do_setup()
         _toggler.set_color_scheme()
-
-def plugin_loaded():
-    _toggler.do_setup()

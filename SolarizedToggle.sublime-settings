@@ -2,5 +2,5 @@
     // Set color schemes to use. By default the plugin uses Solarized light and dark themes.
     //You can set these to any theme you have installed, whether it's a built-in them or not.
     "color_scheme_light": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
-    "color_scheme_dark": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+    "color_scheme_dark": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme"
 }
