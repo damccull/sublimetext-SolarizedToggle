@@ -5,7 +5,7 @@ Solarized Toggle is a very simple plugin originally written to allow users of [S
 
 Now any color scheme included with Sublime Text or installed separately can be used with a change to the plugin's settings file.
 
-Why use this plugin? Instead of having to manually click Preferences->Color Scheme->Some Colors, you can simply press F12 in order to toggle between two themes. The default themes are Solarized Light and Solarized Dark.
+Why use this plugin? Instead of having to manually click Preferences->Color Scheme->Some Colors, you can simply press F12 (CMD+F12 on OSX) in order to toggle between two themes. The default themes are Solarized Light and Solarized Dark.
 
 Note: For a short while there was a buggy support for changing the theme along with the color scheme. This caused some rendering issues with the UI do to a bad theme changing code. This feature has been removed for now.
 
@@ -40,5 +40,5 @@ Congratulations. The plugin is now installed. Test it by pressing F12 a few time
 [st2]: http://www.sublimetext.com/ "Sublime Text 2"
 [st3]: http://www.sublimetext.com/3 "Sublime Text 3"
 [packagecontrol]: http://wbond.net/sublime_packages/package_control "Package Control"
-[currentVersion]: https://github.com/damccull/sublimetext-SolarizedToggle/archive/v1.4.2.zip "Current Version"
+[currentVersion]: https://github.com/damccull/sublimetext-SolarizedToggle/archive/v1.4.3.zip "Current Version"
 [solarizedtheme-plugin]: https://github.com/sublimecolors/solarized "Solarized Theme Plugin"
