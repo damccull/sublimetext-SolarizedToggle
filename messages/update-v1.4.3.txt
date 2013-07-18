@@ -1,0 +1,5 @@
+Version 1.4.3
+
+Changes:
+* Added a keymap specific to OSX. The toggle command defaults to CMD+F12 on OSX.
+* Refactored code to determine which version of sublime plugin is running on.
