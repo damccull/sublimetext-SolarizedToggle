@@ -1,0 +1,4 @@
+Version 1.4.5
+
+Changes:
+* Fixed a bug causing the color scheme to not switch on first keypress when the setting didn't exist yet.

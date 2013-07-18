@@ -6,12 +6,12 @@
 			"description": "A simple plugin that lets you toggle between Solarized Light and Dark themes by pressing F12.",
 			"author": "damccull",
 			"homepage": "https://github.com/damccull/sublimetext-SolarizedToggle",
-			"last_modified": "2013-07-18 02:20:00",
+			"last_modified": "2013-07-18 12:46:00",
 			"platforms": {
 				"*": [
 					{
-						"version": "1.4.4",
-						"url": "https://github.com/damccull/sublimetext-SolarizedToggle/archive/v1.4.4.zip"
+						"version": "1.4.5",
+						"url": "https://github.com/damccull/sublimetext-SolarizedToggle/archive/v1.4.5.zip"
 					}
 				]
 			}
