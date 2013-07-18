@@ -1,0 +1,8 @@
+Version 1.4.4
+
+Changes:
+* Reintroducing basic theme switching support. Thanks to InfernoZeus@github.
+
+NOTE: This plugin will overwrite the following settings in your USER Preferences.sublime-settings file:
+	* color_scheme
+	* theme (if themes are enabled)

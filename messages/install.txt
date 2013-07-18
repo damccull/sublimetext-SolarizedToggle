@@ -4,4 +4,8 @@ This simple plugin allows you to easily and quickly toggle between the two color
 
 By default the key is mapped to F12 (CMD+F12 on OSX), so by pressing F12, you should now see your color scheme change to Solarized Light or Dark, depending on what was already displayed.
 
-Note: This plugin DOES NOT require the Solarized Color Scheme plugin from the Package Control repositories. It defaults the the theme built into Sublime Text 2 and 3.
+NOTE: This plugin will overwrite the following settings in your USER Preferences.sublime-settings file:
+	* color_scheme
+	* theme (if themes are enabled)
+
+NOTE: This plugin DOES NOT require the Solarized Color Scheme plugin from the Package Control repositories. It defaults the the theme built into Sublime Text 2 and 3.
