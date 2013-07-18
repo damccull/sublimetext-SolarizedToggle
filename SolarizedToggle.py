@@ -7,7 +7,6 @@ class SolarizedToggle(object):
         self.global_settings = sublime.load_settings(self.global_settings_file)
         self.plugin_settings_file = 'SolarizedToggle.sublime-settings'
         self.plugin_settings = sublime.load_settings(self.plugin_settings_file)
-        _setupComplete = True
 
     def set_color_scheme(self):
         current_scheme = self.global_settings.get("color_scheme")
@@ -18,11 +17,20 @@ class SolarizedToggle(object):
         self.global_settings.set("color_scheme", new_scheme)
         sublime.save_settings(self.global_settings_file)
 
-_toggler = SolarizedToggle()
-_setupComplete = False
-
 class SolarizedToggleCommand(sublime_plugin.ApplicationCommand):
     def run(self, **args):
-        if _setupComplete is not True:
-            _toggler.do_setup()
         _toggler.set_color_scheme()
+
+def plugin_loaded():
+    _toggler.do_setup()
+
+
+_toggler = SolarizedToggle()
+_st_version = 2
+
+# This technique copied from wbond's Package Control
+if int(sublime.version()) > 3000:
+    _st_version = 3
+
+if _st_version == 2:
+    plugin_loaded()
