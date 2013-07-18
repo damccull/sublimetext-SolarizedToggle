@@ -2,10 +2,13 @@
     // Set color schemes to use. By default the plugin uses Solarized light and dark themes.
     //You can set these to any theme you have installed, whether it's a built-in them or not.
     "color_scheme_light": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
-    "color_scheme_dark": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
-	// Set themes to use. As Sublime Text 2 only comes with one Theme, this is the default
-	// for both light and dark mode.
-    // You can set these to any theme you have installed, whether it's a built-in them or not.
-	"theme_dark": "Default.sublime-theme",
-	"theme_light": "Default.sublime-theme"
+    "color_scheme_dark": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme"
+
+    // Support for Theme switching
+	// As Sublime Text 2 only comes with one Theme, this is disabled by default.
+	// Copy the three lines below to the Solarized Toggle - User settings file to enable it.
+
+    // You can set these to any theme you have installed, whether it's a built-in theme or not.
+	// , "theme_dark": "Default.sublime-theme",
+	// "theme_light": "Default.sublime-theme"
 }

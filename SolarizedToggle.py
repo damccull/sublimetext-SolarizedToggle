@@ -31,16 +31,17 @@ class SolarizedToggle(object):
     def set_theme(self):
         light_theme = self.plugin_settings.get("theme_light")
         dark_theme = self.plugin_settings.get("theme_dark")
-        new_theme = light_theme if self.current_mode == "dark" else dark_theme
+        if (light_theme is not None and dark_theme is not None):
+            new_theme = light_theme if self.current_mode == "dark" else dark_theme
 
-        self.global_settings.set("theme", new_theme)
-        sublime.save_settings(self.global_settings_file)
+            self.global_settings.set("theme", new_theme)
+            sublime.save_settings(self.global_settings_file)
 
 class SolarizedToggleCommand(sublime_plugin.ApplicationCommand):
     def run(self, **args):
         _toggler.update_mode()
-        _toggler.set_color_scheme()
         _toggler.set_theme()
+        _toggler.set_color_scheme()
 
 def plugin_loaded():
     _toggler.do_setup()
