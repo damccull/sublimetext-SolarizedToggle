@@ -1,5 +1,8 @@
 #Solarized Toggle
 
+##Important Note!
+Recently Package Control upgraded its control channel with the release of the new version. Due to this, Solarized Toggle was wiped from the list. I've just added it back, but the kicker is that your plugin may not manually update. If it does not, simply uninstall the current version you have, and reinstall it from Package Control. Sorry for the inconvenience!
+
 ##Introduction
 Solarized Toggle is a very simple plugin originally written to allow users of [Sublime Text 2][st2] and [Sublime Text 3][st3] to easily switch between light and dark versions of the Solarized color scheme.
 
