@@ -47,4 +47,4 @@ Congratulations. The plugin is now installed. Test it by pressing F12 a few time
 [st2]: http://www.sublimetext.com/ "Sublime Text 2"
 [st3]: http://www.sublimetext.com/3 "Sublime Text 3"
 [packagecontrol]: http://wbond.net/sublime_packages/package_control "Package Control"
-[currentVersion]: https://github.com/damccull/sublimetext-SolarizedToggle/archive/v1.4.5.zip "Current Version"
+[currentVersion]: https://github.com/damccull/sublimetext-SolarizedToggle/archive/1.4.5.zip "Current Version"
