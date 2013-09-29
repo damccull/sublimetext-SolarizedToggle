@@ -1,0 +1,5 @@
+Version 1.4.6
+
+Changes:
+* Remove some debug print statements left in last release that were causing exceptions.
+* Updated the packages.json file to the 2.0 schema.
