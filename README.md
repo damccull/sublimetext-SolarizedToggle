@@ -42,7 +42,7 @@ Congratulations. The plugin is now installed. Test it by pressing F12 a few time
 * This plugin will overwrite the following settings in your Preferences.sublime-settings (USER) file:
   * color_scheme
   * theme (if theme switching is enabled)
-* There is an issue with the theme switcher for both versions of Sublime Text where the window sometimes does not update the entire theme, leaving some artifacts of the previous theme behind. I currently believe this to be a limitation of Sublime Text itself. To fix the issue, simple resize or minimize/restore your window. This will cause the window to redraw itself with the new theme.
+* There is an issue with the theme switcher for both versions of Sublime Text where the window sometimes does not update the entire theme, leaving some artifacts of the previous theme behind. I currently believe this to be a limitation of Sublime Text itself. To fix the issue, simply resize or minimize/restore your window. This will cause the window to redraw itself with the new theme.
 
 [st2]: http://www.sublimetext.com/ "Sublime Text 2"
 [st3]: http://www.sublimetext.com/3 "Sublime Text 3"
