@@ -44,6 +44,32 @@ class SolarizedToggle(object):
         self.global_settings.set("color_scheme", new_scheme)
         sublime.save_settings(self.global_settings_file)
 
+    def set_font(self):
+        # First get status of theme switching setting from plugin_settings
+        font_enabled = self.plugin_settings.get("enable_font_switching")
+
+        if (font_enabled): # If switching is enabled...
+            
+            # Get the two themes to toggle between from plugin_settings
+            light_font_size = self.plugin_settings.get("font_size_light")
+            dark_font_size = self.plugin_settings.get("font_size_dark")
+            light_font_face = self.plugin_settings.get("font_face_light")
+            dark_font_face = self.plugin_settings.get("font_face_dark")
+            light_font_options = self.plugin_settings.get("font_options_light")
+            dark_font_options = self.plugin_settings.get("font_options_dark")
+
+            # Decide on which theme to use based on current mode
+            new_font_size = light_font_size if self.current_mode == "light" else dark_font_size
+            new_font_face = light_font_face if self.current_mode == "light" else dark_font_face
+            new_font_options = light_font_options if self.current_mode == "light" else dark_font_options
+
+            # Set the theme in global_settings and save to global settings file
+            self.global_settings.set("font_size", new_font_size)
+            self.global_settings.set("font_face", new_font_face)
+            self.global_settings.set("font_options", new_font_options)
+
+            sublime.save_settings(self.global_settings_file)
+
     def set_theme(self):
         # First get status of theme switching setting from plugin_settings
         themes_enabled = self.plugin_settings.get("enable_theme_switching")
@@ -65,6 +91,8 @@ class SolarizedToggleCommand(sublime_plugin.ApplicationCommand):
         _toggler.update_mode()
         # Set the new theme
         _toggler.set_theme()
+        # Set the new font size
+        _toggler.set_font()
         # Set the new color scheme
         _toggler.set_color_scheme()
 

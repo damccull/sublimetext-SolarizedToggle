@@ -24,5 +24,17 @@
 
     "enable_theme_switching": false,
     "theme_dark": "Default.sublime-theme",
-    "theme_light": "Default.sublime-theme"
+    "theme_light": "Default.sublime-theme",
+
+    // Support for Font switching
+    //      To enable: Copy the seven lines below to the Solarized Toggle - User settings file.
+    //                 Change the font fields to match the them you want to use.
+    //                 Change the enable_font_switching setting to true.
+    "enable_font_switching": false,
+    "font_face_dark": "Monaco",
+    "font_options_dark": [ "no_antialias" ],
+    "font_size_dark": 10.0,
+    "font_face_light": "Menlo",
+    "font_options_light": [ "subpixel_antialias" ],
+    "font_size_light": 11.0
 }
