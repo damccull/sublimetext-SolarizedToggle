@@ -1,0 +1,20 @@
+[
+    {
+        "caption": "SolarizedToggle: Toggle",
+        "command": "solarized_toggle"
+    },
+    {
+        "caption": "Preferences: SolarizedToggle Settings – Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/Solarized Toggle/SolarizedToggle.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: SolarizedToggle Settings – User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/SolarizedToggle.sublime-settings"
+        }
+    }
+]
