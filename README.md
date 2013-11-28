@@ -10,6 +10,10 @@ Now any color scheme included with Sublime Text or installed separately can be u
 
 Why use this plugin? Instead of having to manually click Preferences->Color Scheme->Some Colors, you can simply press F12 (CMD+F12 on OSX) in order to toggle between two themes. If you enable the theme switcher, you can also easily toggle between themes that compliment your color schemes.
 
+##New features in this version
+* Font switching - You can now toggle the font between two different fonts. It changes along with the theme and color scheme.
+* Command Pallete - You can now use the command palette to toggle, or open the default and user settings files.
+
 Contribute to this code:
 * Fork the project, write a patch, submit a pull request.
 * Reporting issues or request features in the Issues tab.
