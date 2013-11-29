@@ -1,5 +1,5 @@
 Version 1.4.7
 
 Changes:
-* Adding font settings \(face, size, options\) switching support via "enable\_font\_switching"
+* Adding font settings (face, size, options) switching support via "enable_font_switching"
 * Added support for command palette
