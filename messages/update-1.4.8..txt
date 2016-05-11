@@ -1,0 +1,4 @@
+Version 1.4.7
+
+Changes:
+* Linux-specific keybind CTRL-F12 added by https://github.com/lzap.
