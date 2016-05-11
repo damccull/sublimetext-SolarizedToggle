@@ -1,0 +1,4 @@
+Version 1.4.9
+
+Changes:
+* Updated packages.json schema to 3.0.0.

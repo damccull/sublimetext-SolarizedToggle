@@ -8,8 +8,8 @@ Now any color scheme included with Sublime Text or installed separately can be u
 Why use this plugin? Instead of having to manually click Preferences->Color Scheme->Some Colors, you can simply press F12 (CMD+F12 on OSX, Control+F12 on Linux) in order to toggle between two themes. If you enable the theme switcher, you can also easily toggle between themes that compliment your color schemes.
 
 ##New features in this version
-* Font switching - You can now toggle the font between two different fonts. It changes along with the theme and color scheme.
-* Command Pallete - You can now use the command palette to toggle, or open the default and user settings files.
+* Linux-specific keybind CTRL-F12 added by https://github.com/lzap.
+* Updated packages.json schema to 3.0.
 
 Contribute to this code:
 * Fork the project, write a patch, submit a pull request.
@@ -49,4 +49,4 @@ Congratulations. The plugin is now installed. Test it by pressing F12 a few time
 [st2]: http://www.sublimetext.com/ "Sublime Text 2"
 [st3]: http://www.sublimetext.com/3 "Sublime Text 3"
 [packagecontrol]: http://wbond.net/sublime_packages/package_control "Package Control"
-[currentVersion]: https://github.com/damccull/sublimetext-SolarizedToggle/archive/1.4.8.zip "Current Version"
+[currentVersion]: https://github.com/damccull/sublimetext-SolarizedToggle/archive/1.4.9.zip "Current Version"

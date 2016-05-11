@@ -1,18 +1,16 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"name": "Solarized Toggle",
 			"details": "https://github.com/damccull/sublimetext-SolarizedToggle",
+			"labels": ["theme", "color scheme", "toggle"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/damccull/sublimetext-SolarizedToggle/tags"
+					"tags": true
 				}
-			],
-			"issues": "https://github.com/damccull/sublimetext-SolarizedToggle/issues",
-			"labels": ["theme", "color scheme", "toggle"]
+			]
 		}
 	]
 }
-
