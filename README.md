@@ -11,7 +11,7 @@ Why use this plugin? Instead of having to manually click Preferences->Color Sche
 * Linux-specific keybind CTRL-F12 added by https://github.com/lzap.
 * Updated packages.json schema to 3.0.
 
-Contribute to this code:
+##Contribute to this code:
 * Fork the project, write a patch, submit a pull request.
 * Reporting issues or request features in the Issues tab.
 
