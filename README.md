@@ -5,7 +5,7 @@ Solarized Toggle is a very simple plugin originally written to allow users of [S
 
 Now any color scheme included with Sublime Text or installed separately can be used with a change to the plugin's settings file. The font settings can also be toggled between the differnt modes. You can also choose to use the built in theme switcher to toggle between two different themes at the same time.
 
-Why use this plugin? Instead of having to manually click Preferences->Color Scheme->Some Colors, you can simply press F12 (CMD+F12 on OSX) in order to toggle between two themes. If you enable the theme switcher, you can also easily toggle between themes that compliment your color schemes.
+Why use this plugin? Instead of having to manually click Preferences->Color Scheme->Some Colors, you can simply press F12 (CMD+F12 on OSX, Control+F12 on Linux) in order to toggle between two themes. If you enable the theme switcher, you can also easily toggle between themes that compliment your color schemes.
 
 ##New features in this version
 * Font switching - You can now toggle the font between two different fonts. It changes along with the theme and color scheme.
