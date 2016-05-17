@@ -44,7 +44,7 @@ Congratulations. The plugin is now installed. Test it by pressing F12 a few time
   * color_scheme
   * font\_face, font\_size, font\_options, (if font switching is enabled)
   * theme (if theme switching is enabled)
-* There is an issue with the theme switcher for both versions of Sublime Text where the window sometimes does not update the entire theme, leaving some artifacts of the previous theme behind. I currently believe this to be a limitation of Sublime Text itself. To fix the issue, simply resize or minimize/restore your window. This will cause the window to redraw itself with the new theme.
+* Prior to Sublime Text 3 build 3114, there is an issue with the theme switcher for both Sublime Text 2 and 3 where the window sometimes does not update the entire theme, leaving some artifacts of the previous theme behind. This is a limitation of Sublime Text itself. To fix the issue, simply resize or minimize/restore your window. This will cause the window to redraw itself with the new theme. Upgrading to a version starting with Sublime Text 3 build 3114 will also fix this problem.
 
 [st2]: http://www.sublimetext.com/ "Sublime Text 2"
 [st3]: http://www.sublimetext.com/3 "Sublime Text 3"
